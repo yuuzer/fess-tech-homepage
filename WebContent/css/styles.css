@@ -63,16 +63,15 @@ div#content {
 
 div#content p {
 	margin: 0px;
-	padding: 0px;
-	line-height: 150%;
+	padding: 0px 0px 20px 0px;
+	line-height: 180%;
 }
 
-div.double-column{
+div.double-column {
 	float: left;
-	width:440px;
+	width: 440px;
 	padding-right: 20px;
-	}
-	
+}
 
 h1 {
 	border-bottom: solid 1px #B22222;
@@ -95,8 +94,11 @@ h2 {
 	color: #336699;
 }
 
-
-
+.right-alignment {
+	text-align: right;
+	font-style: italic;
+	
+}
 
 div#footer {
 	margin: 0px 0px 0px 0px;
@@ -105,55 +107,8 @@ div#footer {
 	background: url(../imgs/fess-bottom.png) repeat-x;
 }
 
-
-/*div#footer p {
-	margin: 0px;
-	padding: 0px;
-	font-size: 75%;
-	text-align: center;
-*/
-/** gallerfic **/
-div.loader,div.slideshow a.advance-link {
-	width: 554px;
-	height: 546px;
-}
-
-div.slideshow a.advance-link {
-	line-height: 546px;
-}
-
-div.slideshow-container {
-	width: 554px;
-	height: 576px;
-}
-
-ul.meta li {
-	width: 207px;
-}
-
-div.navigation-container {
-	width: 290px;
-	margin-top: 27px;
-}
-
-div.caption-container,span.image-caption {
-	width: 544px;
-}
-/** galleriffic **/
-a{
+a {
 	color: #27D;
 	text-decoration: none;
-}
-a:focus, a:hover, a:active {
-	text-decoration: underline;
-}
-
-div.image-title {
-	font-weight: bold;
-	font-size: 1.4em;
-}
-div.image-desc {
-	line-height: 1.3em;
-	padding-top: 12px;
 }
 }
