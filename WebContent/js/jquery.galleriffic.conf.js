@@ -21,7 +21,7 @@ jQuery(document).ready(
 			var gallery = $('#thumbs').galleriffic(
 					{
 						delay : 2500,
-						numThumbs : 15,
+						numThumbs : 12,
 						preloadAhead : 10,
 						enableTopPager : true,
 						enableBottomPager : true,
